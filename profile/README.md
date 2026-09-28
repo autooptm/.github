@@ -14,6 +14,24 @@
 3. The speedup is confirmed **end to end, in your own program**, and the output is checked against the stock one.
 4. You get a patch you can `git apply`. No speedup, no charge.
 
+**Product tour**
+
+<table>
+  <tr>
+    <td width="50%" valign="top"><img src="img/01-submit.png" alt="Submit a job" width="100%"><br><sub><b>1 · Submit.</b> A Git URL or a zip of your code, plus the command you already run.</sub></td>
+    <td width="50%" valign="top"><img src="img/02-estimate.png" alt="Free estimate" width="100%"><br><sub><b>2 · Free estimate.</b> A static scan in about a minute, no code executed. Continue or stop at no charge.</sub></td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top"><img src="img/03-running.png" alt="Run in progress" width="100%"><br><sub><b>3 · Optimize.</b> Your program runs on a real GPU; every idea is measured and kept only if it passes.</sub></td>
+    <td width="50%" valign="top"><img src="img/04-result.png" alt="Verified result" width="100%"><br><sub><b>4 · Result.</b> The speedup confirmed end to end in your own program, the output checked, and a patch to <code>git apply</code>.</sub></td>
+  </tr>
+  <tr>
+    <td colspan="2"><img src="img/05-results.png" alt="Public results" width="100%"><br><sub><b>Public results</b> at <a href="https://autooptm.com/results">autooptm.com/results</a>, each linked to its fork here.</sub></td>
+  </tr>
+</table>
+
+<sub>Screenshots use demo data (SAM 2's numbers are its real published result); no customer account is shown.</sub>
+
 **Results so far** — 56 open-source projects, 59 measurements, median **2.48x** end to end.
 Each fork is the upstream project plus one commit: the patch, and a README with the numbers and how to reproduce them.
 
