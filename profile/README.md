@@ -30,7 +30,7 @@
   </tr>
 </table>
 
-<sub>Screenshots use demo data (SAM 2's numbers are its real published result); no customer account is shown.</sub>
+<sub>Screenshots use demo data: the estimate is CUT3R's real scan and the result is SAM 2's real published run; no customer account is shown.</sub>
 
 **Results so far** — 56 open-source projects, 59 measurements, median **2.48x** end to end.
 Each fork is the upstream project plus one commit: the patch, and a README with the numbers and how to reproduce them.
