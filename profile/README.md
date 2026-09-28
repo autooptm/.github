@@ -1,7 +1,7 @@
 <div align="center">
   <a href="https://autooptm.com"><img src="https://autooptm.com/favicon.svg" width="72" alt="AutoOptm"></a>
   <h2>AutoOptm — automated performance optimization for PyTorch and Python</h2>
-  <p>Point it at a repository. Get back a verified end-to-end speedup and the patch.</p>
+  <p>Point it at a Git repository or upload a zip of your code. Get back a verified end-to-end speedup and the patch.</p>
   <p><a href="https://autooptm.com"><b>autooptm.com</b></a></p>
 </div>
 
@@ -9,7 +9,7 @@
 
 **How it works**
 
-1. You give us a repo and the command you already run — training, inference or data processing.
+1. You give us your code — a Git repository or a zip — and the command you already run: training, inference or data processing.
 2. We run it on a real GPU or CPU, measure the stock program, and optimize it.
 3. The speedup is confirmed **end to end, in your own program**, and the output is checked against the stock one.
 4. You get a patch you can `git apply`. No speedup, no charge.
@@ -37,4 +37,4 @@ Each fork is the upstream project plus one commit: the patch, and a README with 
 
 ---
 
-<sub>Try it on your own repo at <a href="https://autooptm.com">autooptm.com</a> · pip install autooptm</sub>
+<sub>Try it on your own code at <a href="https://autooptm.com">autooptm.com</a> · pip install autooptm</sub>
